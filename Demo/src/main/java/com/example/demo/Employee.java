@@ -5,6 +5,8 @@ public class Employee {
 	private int empId;
 	private String empName;
 	private float salary;
+	private String designation;
+	
 	public int getEmpId() {
 		return empId;
 	}
@@ -22,6 +24,13 @@ public class Employee {
 	}
 	public void setSalary(float salary) {
 		this.salary = salary;
+	}
+	
+	public String getDesignation() {
+		return designation;
+	}
+	public void setDesignation(String designation) {
+		this.designation = designation;
 	}
 	@Override
 	public String toString() {
